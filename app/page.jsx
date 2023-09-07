@@ -58,6 +58,8 @@ export default function Home() {
             <a className="hover:animate-pulse hover:scale-[1.1]" href='https://www.linkedin.com/in/nick-pritchyk-843677197/'>
               <LinkedInIcon style={{ fontSize: '36px'}} />
             </a>
+            <p className="hover:text-[#2d59a1] hover:scale-[1.05] transition-all delay-150 text-sm sm:invisible visible"> 352-445-0562 </p>
+            <p className="hover:text-[#2d59a1] hover:scale-[1.05] transition-all delay-150 text-sm sm:invisible visible"> nickpritchyk20@gmail.com </p>
           </div>
           <h1 className='select-none text-4xl mb-8 w-[30rem] border-t-4 border-white pt-6'> Hi, I'm Nicholas Pritchyk, </h1>
           <h2 className='select-none text-2xl border-b-4 w-[30rem] border-white pb-6 font-extralight tracking-wider'> a web developer based in Denver, Colorado, with a desire to create and build seamless experiences on the web. P.S. I love coding and cooking. {'{'} <LocalDiningIcon /> {'}'} </h2>
