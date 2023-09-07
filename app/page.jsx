@@ -206,7 +206,7 @@ export default function Home() {
             <label className='text-xl text-white font-semibold'> Name </label>
             <input name='name' className='w-[27rem] border-[1px] border-black rounded-md p-1' placeholder='Name'></input>
             <label className='text-xl text-white font-semibold'> Message </label>
-            <textarea name='message' className='w-[27rem] border-[1px] min-h-[10rem] border-black rounded-md p-1' placeholder='Name'></textarea>
+            <textarea name='message' className='w-[27rem] border-[1px] min-h-[10rem] border-black rounded-md p-1' placeholder='Enter your message here'></textarea>
             <button className='bg-white absolute bottom-[-4rem] p-2 rounded-md self-center text-indigo-500 font-semibold hover:scale-[1.03] hover:shadow-lg hover:border-[1px] hover:border-black'> Send Email </button>
           </div>
         </form>
