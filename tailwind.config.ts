@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'Rajdhani': ['sans-serif'],
+        'Bacasime': ['Bacasime Antique', 'serif']
+      },
+      boxShadow: {
+        "custom": '0 5px 2px -2px #2d59a1'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
