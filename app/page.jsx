@@ -11,6 +11,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Home() {
 
+
   function scrollFunction1() {
     const e = document.getElementById("about");
     if(e) {
