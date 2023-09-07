@@ -59,7 +59,7 @@ export default function Home() {
             </a>
           </div>
           <h1 className='select-none text-4xl mb-8 w-[30rem] border-t-4 border-white pt-6'> Hi, I'm Nicholas Pritchyk, </h1>
-          <h2 className='select-none text-2xl border-b-4 w-[30rem] border-white pb-6 font-extralight tracking-wider'> a web developer based in Denver, Colorado, with a desire to create and build seamless experiences on the web. P.S. I love coding and cooking. &#123; <LocalDiningIcon /> &#125; </h2>
+          <h2 className='select-none text-2xl border-b-4 w-[30rem] border-white pb-6 font-extralight tracking-wider'> a web developer based in Denver, Colorado, with a desire to create and build seamless experiences on the web. P.S. I love coding and cooking. {'{'} <LocalDiningIcon /> {'}'} </h2>
           <a onClick={scrollFunction1}>
             <ArrowDownwardIcon className='mt-24 text-[36px]' />
           </a>
