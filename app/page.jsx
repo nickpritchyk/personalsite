@@ -143,7 +143,7 @@ export default function Home() {
         </section>
 
         <h1 className='select-none text-3xl mb-8 w-fit border-b-4 border-indigo-500 pb-2 mt-12'> Projects </h1>
-        <section className='flex flex-col lg:flex-row justify-center mt-12 gap-8'>
+        <section className='flex flex-col lg:grid-cols-2 lg:grid justify-center mt-12 gap-8'>
           <div className='hover:scale-[1.02] transition-all duration-200 delay-75 shadow-lg'>
             <div className="w-[400px] h-[250px] border-[1px] border-[#db8e4f] text-center shadow-md rounded-t-md p-4 justify-evenly flex flex-col bg-cover bg-[url('./img/chefsbg.png')]">
               <label className='text-3xl text-white'> Chefs Choice </label>
@@ -154,7 +154,7 @@ export default function Home() {
                 <li className='p-2 bg-[#db8e4f] w-fit rounded-md text-white'> MySQL & Prisma </li>
               </ul>
             </div>
-            <div className='bg-white rounded-b-md shadow-md w-[400px] h-[75px] flex justify-center p-4 gap-8 border-[#2d59a1] border-[1px]'>
+            <div className='bg-white rounded-b-md shadow-md w-[400px] h-[75px] flex justify-center p-4 gap-8 border-[#db8e4f] border-[1px]'>
                 <a href='https://github.com/nickpritchyk/ChefsChoice'>  
                   <GitHubIcon style={{fontSize: '36px'}} />
                 </a>
@@ -183,17 +183,34 @@ export default function Home() {
 
             <div className='hover:scale-[1.02] transition-all duration-200 delay-75 shadow-lg'>
               <div className="w-[400px] h-[250px] border-[1px] border-[#e44c4c] text-center shadow-md rounded-t-md p-4 justify-evenly flex flex-col bg-cover bg-[url('./img/reciperepo.png')]">
-                <label className='text-3xl text-white'> KnowLo </label>
+                <label className='text-3xl text-white'> RecipeRepo </label>
                 <p  className='text-[#e44c4c] p-1 border-[0.5px] border-[#e44c4c] bg-white w-fit rounded-md self-center text-xl font-extrabold'> A food query site </p>
                 <ul className='flex justify-center gap-4 select-none'> 
                   <li className='p-2 bg-[#e44c4c] w-fit rounded-md text-white'> ReactJS </li>
-                  <li className='p-2 bg-[#e44c4c] w-fit rounded-md text-white'> TailwindCSS </li>
+                  <li className='p-2 bg-[#e44c4c] w-fit rounded-md text-white'> CSS3 </li>
                   <li className='p-2 bg-[#e44c4c] w-fit rounded-md text-white'> MySQL </li>
                 </ul>
               </div>
               <div className='bg-white rounded-b-md shadow-md w-[400px] h-[75px] flex justify-center p-4 gap-8 border-[#e44c4c] border-[1px]'>
                 <a href='https://github.com/nickpritchyk/RecipeRepository_Updated'>  
                   <GitHubIcon style={{fontSize: '36px'}} />
+                </a>
+              </div>
+            </div>
+
+            <div className='transition-all duration-200 delay-75 z-10 relative'>
+              <div className="opacity-30 w-[400px] h-[250px] border-[1px] border-[#744ce4] text-center rounded-t-md p-4 justify-evenly flex flex-col bg-cover bg-[url('./img/tunifyimg.jpeg')]">
+                <label className='text-3xl text-white'> Tunify </label>
+                <p  className='text-[#744ce4] p-1 border-[0.5px] border-[#744ce4] bg-white w-fit rounded-md self-center text-xl font-extrabold'> A personalized Spotify music helper </p>
+                <ul className='flex justify-center gap-4 select-none'> 
+                  <li className='p-2 bg-[#744ce4] w-fit rounded-md text-white'> ReactJS </li>
+                  <li className='p-2 bg-[#744ce4] w-fit rounded-md text-white'> TailwindCSS </li>
+                  <li className='p-2 bg-[#744ce4] w-fit rounded-md text-white'> MongoDB </li>
+                </ul>
+              </div>
+              <div className='opacity-100 bg-white rounded-b-md shadow-md w-[400px] h-[75px] flex justify-center p-4 gap-8 border-[#744ce4] border-[1px]'>
+                <a className='text-[#744ce4]'>  
+                  WIP - Coming Soon
                 </a>
               </div>
             </div>
